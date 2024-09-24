@@ -1,0 +1,32 @@
+  785  /bin/python3.12 /home/kali/DevOps/github-for-devops-workshop/testing.py
+  786  git status
+  787  git add testing.py
+  788  git status
+  789  ls
+  790  ls -l
+  791  rm testing.py
+  792  ls
+  793  git init
+  794  git status
+  795  ls -l
+  796  pwd
+  797  ls
+  798  ls -l
+  799  git rm --cached testing.py
+  800  git status
+  801  git add testing.py
+  802  git status
+  803  git commit -m "added testing files"
+  804  git config user.name "Qudais Ashraf"\ngit config user.email "qudaisa.cs@gmail.com"\n
+  805  git commit -m "added testing files"
+  806  rm testing.py
+  807  ls
+  808  git status
+  809  git restore testing.py
+
+  816 git remote add origin https://github.com/QudaisAshraf/github-for-devops-workshop.git
+  817  git remote -v
+  818  git push origin master
+  819  git remote set-url origin https://@github.com/QudaisAshraf/github-for-devops-workshop.git
+  820  git remote -v
+  821  git push origin master
